@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-cards {
+    display: inline-flex;
+    flex-wrap: wrap; /* Permite que las tarjetas se muevan a la siguiente línea si no hay espacio suficiente */
+    gap: 20px; /* Espacio entre las tarjetas */
+    justify-content: center; /* Centra las tarjetas horizontalmente */
+}
+
+.card {
+    flex: 0 1 18rem;  /* La tarjeta tendrá un ancho base de 18rem y se ajustará si es necesario */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opcional: agrega sombra a las tarjetas */
+    overflow: hidden;
+}
+
+/* Si deseas ajustar el margen o el padding de las tarjetas */
