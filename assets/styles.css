@@ -1,30 +1,39 @@
+body {   
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/1236868767821074462.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #696969;      
+}
+h1 {
+    text-align: center;
+}   
+p {
+    text-align: center;
+}
+.card {
+    width: 16rem;
+    overflow: hidden;
+}
+.navbar-brand img{
+    width: 50px;
+    height: auto;   
+}
+#pag2-img{
+    padding: 5%;
+}
+.navbar-brand img {
+    transition: transform 0.5s;
+}
+.navbar-brand.clicked img {
+    transform: rotate(360deg);
+}
 
-    body {
-        margin: 0;
-        padding: 0;
-        justify-content: center;
-        align-items: center;
-        
-    }
-      
-    h1 {
-        text-align: center;
-    }
-    p {
-        text-align: center;
-    }
-    .card {
-        width: 16rem;
-        overflow: hidden;
-    }
-    .navbar-brand img{
-        width: 50px;
-        height: auto;
-
-    }
-    #pag2-img{
-        padding: 5%;
-    }
-
+    
 
 
