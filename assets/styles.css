@@ -7,13 +7,14 @@
         
     }
       
-    h1{
+    h1 {
         text-align: center;
     }
-    p{
+    p {
         text-align: center;
     }
     .card {
+        width: 16rem;
         overflow: hidden;
     }
     .navbar-brand img{
@@ -21,10 +22,8 @@
         height: auto;
 
     }
-    @media (max-width:1199px){   
-        #card-container{
-            
-        }
+    #pag2-img{
+        padding: 5%;
     }
 
 
