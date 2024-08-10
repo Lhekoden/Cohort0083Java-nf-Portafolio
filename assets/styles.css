@@ -7,14 +7,25 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: fixed;
-    background-color: #696969;      
+    background-attachment: fixed;    
 }
 h1 {
+    color: whitesmoke;
     text-align: center;
+    font-family: montserrat;
+    font-style: oblique;
 }   
 p {
+    color: white;
     text-align: center;
+
+}
+li{
+    color: white;
+    font-weight: bold;
+}
+.card p {
+    color: black;
 }
 .card {
     width: 16rem;
@@ -33,7 +44,16 @@ p {
 .navbar-brand.clicked img {
     transform: rotate(360deg);
 }
-
+ul p {
+    text-align: start;
+}
+.nav-item {
+    transition: transform 0.3s ease-in-out;
+}
+li img {
+    width: 50px;
+    height: auto;
+}
     
 
 
