@@ -18,14 +18,13 @@ h1 {
 p {
     color: white;
     text-align: center;
+    background-color: rgb(39, 65, 82, 0.5);
+    border-radius: 8px;
 
 }
 li{
     color: white;
     font-weight: bold;
-}
-.card p {
-    color: black;
 }
 .card {
     width: 16rem;
@@ -53,7 +52,8 @@ ul p {
 li img {
     width: 50px;
     height: auto;
+    border-radius: 8px;
 }
-    
-
-
+footer{
+    background-color: rgb(44, 62, 70);
+}
